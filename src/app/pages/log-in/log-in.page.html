@@ -1,0 +1,33 @@
+<ion-header>
+  
+  </ion-header>
+ 
+  <ion-content >
+      <div color="primary">
+      <ion-card>
+          <ion-card-header>
+            
+            <ion-card-title class="ion-text-center" id='title' color="primary">تسجيل الدخول</ion-card-title>
+          </ion-card-header>
+          <ion-img src="assets/Soter-Logo.png"></ion-img>
+          <form padding>
+            <ion-input placeholder="username" id="name1" #nameE1></ion-input>
+            <ion-input placeholder="password" id="name2" #nameE2></ion-input>
+
+            <ion-button (click)="log(nameE1.value,nameE2.value)">دخول</ion-button>
+
+          </form>
+
+          
+          
+        
+          <ion-card-content>
+  
+           
+          </ion-card-content>
+        </ion-card>
+      </div>
+    
+  </ion-content>
+
+  

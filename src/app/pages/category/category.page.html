@@ -1,11 +1,9 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
+  <ion-toolbar > 
+    <ion-buttons slot="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>
-      Home
-    </ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
@@ -15,13 +13,13 @@
   </ion-card>
   <ion-card>
     <ion-label>
-        <ion-img src="assets/makeup.jpg"></ion-img>
+        <ion-img src="assets/makeup.jpg" [routerLink]="['/makeup-artist']" routerLinkActive="/makeup-artist" ></ion-img>
       خبيرات مكياج
     </ion-label>
   </ion-card>
   <ion-card>
       <ion-label>
-          <ion-img src="assets/Soter-Logo.png"></ion-img>
+          <ion-img src="assets/Soter-Logo.png" [routerLink]="['/hairstyle']" routerLinkActive="router-link-active" ></ion-img>
           مصففات شعر
      
       </ion-label>
@@ -32,7 +30,7 @@
           مصورات
         </ion-label>
       </ion-card>
-
+    
     
       
         

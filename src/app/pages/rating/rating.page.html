@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+    
+  
+        <ion-card-content [routerLink]="['/reservation']" routerLinkActive="router-link-active" >
+            
+               <ion-grid>
+                 <ion-row>
+                   <ion-col>
+                      <ion-avatar>
+                          <img src="assets/photo.jpg" item-right>
+                        </ion-avatar> 
+  
+                   </ion-col>
+                   <ion-col>
+                      <ion-label>ابتسام الالمعي</ion-label>
+  
+                   </ion-col>
+                 </ion-row>
+                 <ion-row class="ion-align-items-end">
+                    <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                 </ion-row>
+                </ion-grid>
+                    <ion-button fill="outline" dir="rtl" >حجز</ion-button>
+             
+        </ion-card-content>
+      </ion-card>
+      <ion-row>
+        <ion-col>
+            <ion-button [routerLink]="['/review']" routerLinkActive="router-link-active" >التقييمات</ion-button>
+        </ion-col>
+        <ion-col>
+            <ion-button>الصور</ion-button>
+        </ion-col>
+      </ion-row>
+      
+
+</ion-content>
