@@ -2,6 +2,18 @@
     font-size: 20px;
     text-align: right;
 }
-ion-row.ios.hydrated {
+ion-row {
     align-items: end;
+}
+ion-row.ion-align-items-end.ios.hydrated {
+    display: block;
+}
+ion-avatar.ios.hydrated {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-top: 20px;
+}
+.card-title{
+    
 }

@@ -5,3 +5,37 @@
     --background: #fff;
     --color:red;
 }
+.loginbtn{
+text-align: center;
+    margin: 0 auto !important;
+    display: block;
+    width: 133px;
+}
+
+ion-card{
+
+    height: -webkit-fill-available;
+    background: white;
+}
+form.ng-untouched.ng-pristine.ng-valid {
+    margin-top: 51px;
+}
+ion-card-title#title {
+    margin-top: inherit;
+}
+input.native-input.sc-ion-input-ios {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.input{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+form.input.ng-untouched.ng-pristine.ng-valid {
+    margin-left: 82px;
+    margin-bottom: inherit;
+}
+div {
+    margin-bottom: 50px;
+}

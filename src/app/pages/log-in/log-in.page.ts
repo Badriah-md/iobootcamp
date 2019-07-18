@@ -20,8 +20,6 @@ export class LogInPage implements OnInit {
 log(name:string,pass:string){
   if(name === 'bdor' && pass === 'bb'){
     this.router.navigateByUrl('/category');
-
-    
   }
   name='';
   pass='';

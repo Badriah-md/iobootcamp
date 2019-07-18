@@ -1,3 +1,12 @@
 .sc-ion-label-ios-s h2:last-child{
     direction: rtl;
 }
+ion-card-header.ios.hydrated {
+    background: white;
+}
+ion-avatar.ios.hydrated {
+    margin-left: 31%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}

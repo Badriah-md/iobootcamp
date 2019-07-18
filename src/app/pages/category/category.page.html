@@ -1,37 +1,54 @@
 <ion-header>
   <ion-toolbar > 
-    <ion-buttons slot="end">
+    <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
+    <ion-title>
+     قائمة الخدمات
+
+      
+    </ion-title>
     
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-text-center" text>
-  <ion-card>
-        <ion-card-title class="ion-text-center">قائمة الخدمات</ion-card-title>
+<ion-content>
+  <ion-card [routerLink]="['/makeup-artist']" routerLinkActive="router-link-active" >
+      <ion-row size = "2" class="ion-align-items-center">
+        <ion-img src="assets/185-Makeup-Artist-Nail-Technician-and-Hairdressing-Course-for-Beauty-Salon.jpg" [routerLink]="['/makeup-artists']" routerLinkActive="/makeup-artist" ></ion-img>
+      <p class="font">خبيرات مكياج</p>
+    </ion-row>
+
   </ion-card>
   <ion-card>
-    <ion-label>
-        <ion-img src="assets/makeup.jpg" [routerLink]="['/makeup-artist']" routerLinkActive="/makeup-artist" ></ion-img>
-      خبيرات مكياج
-    </ion-label>
-  </ion-card>
-  <ion-card>
-      <ion-label>
-          <ion-img src="assets/Soter-Logo.png" [routerLink]="['/hairstyle']" routerLinkActive="router-link-active" ></ion-img>
-          مصففات شعر
-     
-      </ion-label>
-    </ion-card>
-    <ion-card>
-        <ion-label>
-            <ion-img src="assets/photo.jpg"></ion-img>
-          مصورات
-        </ion-label>
-      </ion-card>
-    
-    
+    <ion-row size = "2" class="ion-align-items-center" [routerLink]="['/hairstyle']" routerLinkActive="/makeup-artist">
+      <ion-img src="assets/dd23914ebb0a2161dd155f772382a8da.jpeg"  ></ion-img>
+    <p class="font">مصففات شعر</p>
+  </ion-row>
+
+</ion-card>
+
+<ion-card>
+  <ion-row size = "2" class="ion-align-items-center" color="primary" [routerLink]="['/hairstyle']" routerLinkActive="/makeup-artist">
+    <ion-img src="assets/photography-header.jpg"  ></ion-img>
+  <p class="font">مصورات</p>
+</ion-row>
+</ion-card>
+<ion-card>
+  <ion-row size = "2" class="ion-align-items-center" color="primary" [routerLink]="['/hairstyle']" routerLinkActive="/makeup-artist">
+    <ion-img src="assets/best_sewing_machine_primary_image.png"  ></ion-img>
+  <p class="font">خياطه</p>
+</ion-row>
+
+
+</ion-card>
+<ion-card>
+<ion-row size = "2" class="ion-align-items-center" color="primary" [routerLink]="['/hairstyle']" routerLinkActive="/makeup-artist">
+  <ion-img src="assets/154945_00_2x.jpg" ></ion-img>
+<p class="font">رسم وتصميم</p>
+</ion-row>
+</ion-card>
+  
       
         
 

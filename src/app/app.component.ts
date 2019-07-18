@@ -25,11 +25,6 @@ export class AppComponent {
       url: '/log-in',
       icon: 'home'
     },
-    {
-      title: 'خروج',
-      url: '/log-in',
-      icon: 'home'
-    }
     
   ];
 
@@ -44,7 +39,7 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      this.splashScreen.show();
     });
   }
 }

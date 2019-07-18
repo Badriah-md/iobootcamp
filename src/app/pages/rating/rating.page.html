@@ -1,45 +1,102 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title></ion-title>
+    <ion-title>التفاصيل</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    
     <ion-card>
     
-  
-        <ion-card-content [routerLink]="['/reservation']" routerLinkActive="router-link-active" >
+      
+        <ion-card-content  >
             
                <ion-grid>
                  <ion-row>
                    <ion-col>
                       <ion-avatar>
-                          <img src="assets/photo.jpg" item-right>
+                          <img src="assets/00-tout-makeup-organizer.jpg" item-right>
                         </ion-avatar> 
   
                    </ion-col>
                    <ion-col>
                       <ion-label>ابتسام الالمعي</ion-label>
   
-                   </ion-col>
+                   </ion-col>  
                  </ion-row>
                  <ion-row class="ion-align-items-end">
+                   
                     <ion-icon name="star" class="ion-align-items-center"></ion-icon>
                     <ion-icon name="star-outline"></ion-icon>
                  </ion-row>
+                 <ion-chip>
+                    <ion-avatar calss="special">
+                      <img src="assets/icons8-whatsapp.png" >
+                    </ion-avatar>
+                    <ion-avatar calss="special">
+                        <img src="assets/icons8-instagram_new.png" >
+                      </ion-avatar>
+                      <ion-avatar calss="special">
+                          <img src="assets/icons8-snapchat_circled_logo.png" >
+                        </ion-avatar>
+                   
+                  </ion-chip>
+                  
+                  <ion-button fill="outline" slot="start" [routerLink]="['/reservation']" routerLinkActive="router-link-active"  >حجز</ion-button>
+                 
                 </ion-grid>
-                    <ion-button fill="outline" dir="rtl" >حجز</ion-button>
+                    <ion-button style="outline">reserve</ion-button>
              
         </ion-card-content>
+       
+        
       </ion-card>
-      <ion-row>
-        <ion-col>
-            <ion-button [routerLink]="['/review']" routerLinkActive="router-link-active" >التقييمات</ion-button>
-        </ion-col>
-        <ion-col>
-            <ion-button>الصور</ion-button>
-        </ion-col>
-      </ion-row>
+      
+      <ion-chip class="chip">
+        <ion-label>التقييمات</ion-label>
+      </ion-chip>
+      <ion-list>
+        <ion-item dir="rtl">
+            <ion-row class="ion-align-items-end">
+              <ion-col>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </ion-col>
+             </ion-row>
+             <ion-row>
+               جيده جدا
+             </ion-row>
+        </ion-item>
+        <ion-item dir="rtl">
+            <ion-row class="ion-align-items-end">
+              <ion-col>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </ion-col>
+             </ion-row>
+             <ion-row>
+               ممتازه
+             </ion-row>
+        </ion-item>
+        <ion-item dir="rtl">
+            <ion-row class="ion-align-items-end">
+              <ion-col>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star" class="ion-align-items-center"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </ion-col>
+             </ion-row>
+             <ion-row>
+               ممتازه
+             </ion-row>
+        </ion-item>
+    
+    
+      </ion-list>
+      
+      
       
 
 </ion-content>

@@ -23,7 +23,8 @@ const routes: Routes = [
   { path: 'log-in', loadChildren: './pages/log-in/log-in.module#LogInPageModule' },
   { path: 'reservation', loadChildren: './pages/reservation/reservation.module#ReservationPageModule' },
   { path: 'rating', loadChildren: './pages/rating/rating.module#RatingPageModule' },
-  { path: 'review', loadChildren: './pages/review/review.module#ReviewPageModule' }
+  { path: 'review', loadChildren: './pages/review/review.module#ReviewPageModule' },
+  { path: 'photogallery', loadChildren: './pages/photogallery/photogallery.module#PhotogalleryPageModule' }
 ];
 
 @NgModule({

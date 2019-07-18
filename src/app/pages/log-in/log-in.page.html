@@ -7,19 +7,20 @@
       <ion-card>
           <ion-card-header>
             
-            <ion-card-title class="ion-text-center" id='title' color="primary">تسجيل الدخول</ion-card-title>
+           
           </ion-card-header>
-          <ion-img src="assets/Soter-Logo.png"></ion-img>
-          <form padding>
-            <ion-input placeholder="username" id="name1" #nameE1></ion-input>
+          <ion-img src="assets/Thame 002-07.png"></ion-img>
+          <ion-card-title class="ion-text-center" id='title' color="primary">تسجيل الدخول</ion-card-title>
+          <form class="input">
+            <ion-input placeholder="username" id="name1" #nameE1 ></ion-input>
             <ion-input placeholder="password" id="name2" #nameE2></ion-input>
 
-            <ion-button (click)="log(nameE1.value,nameE2.value)">دخول</ion-button>
+           
 
           </form>
 
           
-          
+          <ion-button (click)="log(nameE1.value,nameE2.value)" class='loginbtn'>دخول</ion-button>
         
           <ion-card-content>
   
